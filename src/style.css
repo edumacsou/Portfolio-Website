@@ -6,8 +6,11 @@
 }
 
 .profile-bg{
+  position: relative;
   width: 100%;
-  height: 700px;
+  min-width: 480px;
+  height: 100vh;
+  min-height: 500px;
   background: url(https://i.imgur.com/OxApF88.jpg) no-repeat center;
   background-size: cover;
 }
@@ -48,14 +51,16 @@
 }
 
 .profile-card{
-  width: 500px;
+  width: 85vw;
+  max-width: 500px;
+  min-width: 400px;
   transform: translate(-50%, -50%);
   position: relative;
   text-align: center;
   border-radius: 100px;
   overflow: hidden;
   background: linear-gradient(-60deg, #080b2eea, #0b0222f3);
-  padding: 40px 0px;
+  padding: 40px 0px 20px 0px;
   box-shadow: 5px 8px 10px 7px black;
   transition: all .5s ease-in-out;
   left: 50%;
@@ -65,7 +70,7 @@
 .profile-card:hover{
   transform: translate(-52%, -52%);
   box-shadow: 11px 14px 20px 9px black;
-  padding: 43px 3px;
+  padding: 43px 3px 23px 3px;
 }
 
 #profilePhoto{
@@ -153,7 +158,9 @@
 
 .projects{
   width: 100%;
-  height: 700px;
+  min-width: 480px;
+  height: 100vh;
+  min-height: 500px;
   background: url(https://i.imgur.com/qYoFSV5.jpg) no-repeat center;
   background-size: cover;
 }
@@ -169,16 +176,19 @@
   border-radius: 5px;
   padding: 3px;
   left: 50%;
-  top: 20%;
+  top: 15%;
 }
 
 .slidershow{
-    width: 700px;
-    height: 400px;
+    width: 80vw;
+    max-width: 700px;
+    min-width: 450px;
+    height: 70%;
+    max-height: 400px;
+    min-height: 300px;
     overflow: hidden;
     position: relative;
     border-radius: 25px;
-    /* background-color: green; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
